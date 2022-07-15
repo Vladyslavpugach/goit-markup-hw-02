@@ -1,0 +1,39 @@
+:root {
+        --primary-text-color: #757575;
+        --title-color: #212121;
+        --link-hover-color: #2196F3;
+        --primary-bg-color: #2F303A;
+        --bg-color-wite: #fff;
+        --bg-color-grey: #F5F4FA;
+ 
+
+}
+
+body{
+        font-family: Roboto, sans-serif;
+        background: #fff;
+        color: var(--primary-text-color);
+        font-size: 14px;
+        line-height: 1.33;
+    }
+
+        .list {
+            list-style: none;
+        }
+
+        
+
+
+
+
+
+
+
+/* цвет основного текста
+#212121
+цвет h1 #FFFFFF
+цвет web #2196F3
+цвет p, header #757575
+цвет backround #2F303A
+цвет backround наша команда #F5F4FA
+*/
