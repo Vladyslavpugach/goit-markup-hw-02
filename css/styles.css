@@ -211,7 +211,59 @@ body{
                     color: var(--link-hover-color);
                 }
 
+        /* PORTFOLIO STYLES */
+        .link.portfolio {
+            color: var(--link-hover-color);
+        }
     
+        ​ .portf-title {
+            display: none
+        }
+    
+        ​ .button-portf {
+            background: #F5F4FA;
+            border: none;
+            font-family: inherit;
+            border-radius: 4px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.62;
+            text-align: center;
+            letter-spacing: 0.03em;
+            cursor: pointer;
+        }
+    
+        ​ .button-portf:hover,
+        .button-portf:focus {
+            background: #2196F3;
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            color: #FFFFFF;
+        }
+    
+        ​ .portf-list-title {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            letter-spacing: 0.06em;
+            color: var(--title-color);
+        }
+    
+        ​ .portf-text {
+            font-size: 16px;
+            line-height: 1.88;
+            letter-spacing: 0.03em;
+            color: var(--primary-text-color);
+        }
+    
+        
+        /*
+    колір основного тексту #212121
+    колір h1 #FFFFFF
+    колір web #2196F3
+    колір p, mail tel (header) #757575
+    колір background #2F303A
+    колір background наша команда #F5F4FA ;
+    колір*/
 
 
 
